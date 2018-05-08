@@ -6,6 +6,6 @@ public class Hello {
         System.out.println ("Hello, My name is Sumittra");
         System.out.println ("Major: Information System");
         System.out.println ("Faculty: Mangement Technology");
-        System.out.println("University: RMUTSV");
+
     }
 }
