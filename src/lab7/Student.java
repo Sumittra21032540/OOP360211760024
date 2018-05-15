@@ -1,8 +1,9 @@
 package lab7;
 //1.name
-//2.age
-//3.gender
-//4.height
+//2. age
+//3. gender
+//4. height
+
 public class Student {
     //properties of student class
     private String name;
@@ -11,7 +12,7 @@ public class Student {
     private double height;
     //default constructor
     public Student(){}
-    //design  constructor
+    //design constructor
 
 
     public Student(String name, int age, String gender, double height) {
