@@ -10,7 +10,7 @@ public class petApp {
         System.out.println(d1.toString()+" "+d1.getClass().getSimpleName());
 
 
-        Cat d2 = new lab8.Cat();
+        lab8.Cat d2 = new lab8.Cat();
         d2.setName("Zaza");
         d2.setAge(3);
 

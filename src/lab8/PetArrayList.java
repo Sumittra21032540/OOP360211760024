@@ -40,7 +40,7 @@ public class petAppArrayList {
                 d.setAge(Integer.parseInt(reader.readLine()));
                 myPet.add(d);
             } else {
-                Cat c = new Cat();
+                lab8.Cat c = new lab8.Cat();
                 System.out.print("Cat name: ");
                 c.setName(reader.readLine());
                 System.out.print("Cat age: ");
