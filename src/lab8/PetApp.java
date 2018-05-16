@@ -1,6 +1,6 @@
 package lab8;
 
-public class petApp {
+public class PetApp {
     public static void main(String[] args) {
 
         Dog d1 = new Dog();
@@ -10,9 +10,16 @@ public class petApp {
         System.out.println(d1.toString()+" "+d1.getClass().getSimpleName());
 
 
-        lab8.Cat d2 = new lab8.Cat();
+        Cat d2 = new Cat();
         d2.setName("Zaza");
         d2.setAge(3);
 
-        System.out.println(d1.toString() +" "+d2.getClass().getSimpleName());
+        System.out.println(d2.toString()+" "+d2.getClass().getSimpleName());
 
+
+
+
+
+
+    }//main
+}//class

@@ -1,11 +1,11 @@
 package lab8;
 
 public abstract class Pet {
-    private String name;
-    private int age;
+    private  String name;
+    private  int age;
 
+    public abstract void makeNoise();
 
-public abstract void makeNoise();
 
     @Override
     public String toString() {
