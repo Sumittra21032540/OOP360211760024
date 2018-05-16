@@ -1,12 +1,10 @@
-package lab7;
+package lab8;
 
-import lab8.Pet;
-
-public class Cat extends Pet {
-
+public class Cat extends Pet{
 
     @Override
-    public void makeNoise(){
+    public void makeNoise() {
         System.out.println("Meow Meow !!!");
 
     }
+}
